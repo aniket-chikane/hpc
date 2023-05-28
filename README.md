@@ -6,3 +6,5 @@ example:-
 
 **** To run code****
 ./a.out
+******To run cuda***
+nvcc programname.cu
