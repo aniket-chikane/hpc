@@ -1,11 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include<stdlib.h>
 #include <ctime>
 #include <omp.h>
 using namespace std;
 // Function to perform BFS from a given vertex
-void bfs(int startVertex, vector<bool> &visited, vector<vector<int>> &graph)
+void bfs(int startVertex, vector<bool> &visited, vector<vector<int> > &graph)
 {
 // Create a queue for BFS
 queue<int> q;
